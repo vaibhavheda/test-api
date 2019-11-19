@@ -1,0 +1,51 @@
+.visible {
+	display: block;
+}
+.hide {
+	display: none;
+}
+.nextbtn {
+	display: none;
+}
+.startbtn {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 50px;
+	color: white;
+	border: 2px solid white;
+	background: rgba(255, 255, 255, 0);
+	font-size: 20px;
+	transition: all ease-in-out 0.15s;
+}
+.startbtn:hover {
+	transition: all ease-in-out 0.15s;
+	color: rgb(0, 0, 0);
+	background: white;
+}
+#beginTest {
+	padding: 30px;
+	width: 90%;
+	height: 80%;
+	background: rgba(255, 255, 255, 0.801);
+	margin: 10px auto;
+	border: 3px solid rgb(255, 80, 80);
+}
+
+.btn {
+	margin-top: 50px;
+	margin-left: 40%;
+	width: 100px;
+	height: 40px;
+	color: white;
+	border: 2px solid rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.822);
+	font-size: 18px;
+	transition: all ease-in-out 0.15s;
+}
+#beginTest label {
+	margin: 5px;
+	font-size: 20px;
+}

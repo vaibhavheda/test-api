@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "canvasjs": "^1.8.1",
     "react": "^16.11.0",
+    "react-canvas-js": "^1.0.1",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
   },
