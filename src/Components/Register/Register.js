@@ -41,7 +41,7 @@ class Register extends React.Component {
 				.then(res => res.json())
 				.then(user => {
 					console.log(user);
-					if (user) {
+					if (user === "success") {
 						this.props.onRouteChange("home");
 						alert("Click Start Test Button To Start Your Test");
 					} else alert("Check your Email Id and Password!");

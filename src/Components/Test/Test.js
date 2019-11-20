@@ -79,7 +79,7 @@ const onNextClicked = () => {
 			test.innerHTML =
 				"<B>Thank You <B> For Giving the test <br/>You Scored " +
 				correct +
-				"Out of 10.";
+				" Out of 10.";
 		}
 	}
 };
